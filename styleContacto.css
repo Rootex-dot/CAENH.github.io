@@ -1,0 +1,229 @@
+  
+
+.typed-cursor {
+    color: crimson;
+    font-family: 'Anton', sans-serif;
+    font-size: 42px;
+    }
+h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    text-shadow:1px 1px 1px  #333;
+}    
+
+
+
+#slogan{
+    width: 100%;
+    }
+    
+
+/*
+#formulariocontacto{
+    margin-top: 100px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    width: 70%; 
+}
+*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #333;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: rgb(53, 120, 220);
+  }
+  
+  
+
+
+
+/*Nuevos atributos del formulario INICIO*/
+form{
+    width: 340px;
+    height: 440px;
+    background-color:#e6e6e6;
+    /*margin: calc(50vh -220px) auto;*/
+    padding: 20px 30px;
+    max-width: calc(100vw - 40 px);
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+    position: absolute;
+    background-image: url("logomedico.png");
+    background-repeat: no-repeat repeat;
+    background-position:left top;
+    background-size: 10%;
+    background-repeat:no-repeat ;
+    border-radius: 18px;
+    box-shadow:  10px 40px -14px #000;
+    top: 99%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+   
+
+}
+
+h2{
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 180px;
+    color: #78788c;
+    border-bottom: 3px solid #78788c;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .5s;
+    border-bottom: 2px solid #bebed2;
+}
+
+input:focus{
+    border-bottom: 2px solid #78788c;
+    
+}
+
+button{
+    float: right;
+    padding: 8px 12px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all .3s;
+}
+button:hover{
+    background: #78788c;
+    color:#fff;
+}
+/*
+#contenedor{
+    content: 'Hola';
+    position: absolute;
+    bottom: -15px;
+    right: -20px;
+    background:#50505a;
+    color:#fff;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000;
+}
+*/
+#miniC{
+    content: 'Hola';
+    position: absolute;
+    bottom: -28px;
+    right: -20px;
+    background:#50505a;
+    color:#fff;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000;
+}
+span{
+    margin: 0 5px 0 15px;
+
+}
+
+/*Nuevos atributos del formulario FIN*/
+
+/*
+form{
+    border: 5px solid #fff;
+    background-image: url("logomedico.png");
+    background-repeat: no-repeat repeat;
+    background-position:left top;
+    background-size: 10%;
+    background-repeat:no-repeat ;
+    text-align: center;
+}
+
+//ATRIBUTOS MIOS PRIMERA VERSION.
+
+
+label{
+    font-size: 22px;
+}
+
+input, textarea{
+    background-color: rgb(105, 206, 245, 30%);
+    font-family: 'verdana', sans-serif;
+    width: 100%;  
+    border-radius: 15%;
+    padding: 2px;
+    box-sizing: border-box;
+
+
+}
+
+input:focus, textarea:focus{
+    border: 5px solid rgb(22, 225, 32);
+}
+
+
+
+input::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+textarea{
+    resize: vertical;
+    min-height: 100px;
+    max-height: 300px;
+}
+
+input[type="submit"]{
+    font-size: 25px;
+    margin-bottom: 0;
+    background: #1668c4;
+    color:#fff;
+   
+}
+
+input[type="submit"]:hover{
+    background: #4A88F4;
+    cursor:pointer;
+   
+
+}
+
+*/
+/*font-family: 'Anton', sans-serif;
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Zilla Slab', serif;*/
+

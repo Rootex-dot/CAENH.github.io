@@ -1,0 +1,163 @@
+/*SI SE ESTA SEGURO DE NO UTILIZAR EL FONDO ELIMINAR ESTA PARTE DEL CODIGO.
+body{
+     background-image: url(hypnotize.png);
+}
+SI SE ESTA SEGURO DE NO UTILIZAR EL FONDO ELIMINAR ESTA PARTE DEL CODIGO.*/
+
+/*INICIO de estilos de menu*/
+
+
+
+/*INICIO color de seleccion.*/
+::selection{
+    background:#02be31;
+    color:#fff;
+ }
+ /*FIN color de seleccion.*/
+
+
+
+#Agenda{
+    background-color: violet;
+    transition: .3s;
+    border-radius: 25px 0px 25px 0px;
+    border: 1px solid black;
+    }
+    #Agenda:hover{
+        background-color: rgb(197, 64, 197);
+        color: black;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu{
+    width: 100%;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:  #333;
+    }
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: inline-block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: 0.3s;
+      
+    }
+    
+    li a:hover {
+      background-color: rgb(53, 120, 220);
+    }
+    
+/*FIN de estilos de menu*/
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(96, 176, 179);
+    text-shadow: 1px 1px #8c1a1a;
+}
+h2{
+    text-align: center;
+    text-shadow: 1px 1px rgb(62, 137, 137);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.31em;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#MisionyVision{
+    
+    width: 100%;
+    
+
+}
+#Mision{
+    background-color: yellow;
+    
+    height: 10em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 2%;
+}
+#vision{
+    background-color: red;
+    
+    height: 10em;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Principios{
+    height: 10em;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO estilos de descripción.*/
+
+@font-face {
+    font-family: "Americana Std Extra Bold";
+    src: url("Americana-Std-Roman_3391.ttf");
+  }
+
+
+
+
+#descripcion{
+    padding: 10px;
+    font-family: 'Americana Std Extra Bold', serif;
+    font-size: 1.2em;
+}
+
+#centro{
+    text-align: center;
+}
+.Subdescripcion{
+    font-family: 'Americana Std Extra Bold', serif;
+    font-size: 1.2em;
+
+}
+
+
+/*FIN estilos de descripción.*/

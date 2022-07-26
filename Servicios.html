@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios.</title>
+
+       <!-- Archivo de CSS de materialize INICIO -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+       <!-- Archivo de CSS de materialize FIN -->
+
+            <!--Archivo de iconos importado de google Icons INICIO-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Archivo de iconos importado de google Icons FIN-->
+    <style>
+    
+    h1{
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(96, 176, 179);
+          text-shadow: 1px 1px #8c1a1a;
+    }
+    #btnback{
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: .4s;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        color:#393737;
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left:40px;
+        padding-right:40px;
+        background-color:#f0a6a8;
+        border-color: #e6686f;
+        border-width: 3px;
+        border-style: solid;
+    }
+    
+    #btnback:hover{
+        background-color:#f2595e;
+        color: white;
+    }
+    .regresar{
+        text-decoration: none;
+    }
+    #imagen1{
+        border: 1px solid black;
+        border-radius: 25%;
+        width: 200px;
+        height: 200px;
+        box-shadow: 10px 5px 5px black;
+    }
+    #imagen2{
+        border: 1px solid black;
+        border-radius: 25%;
+        width: 200px;
+        height: 200px;
+        box-shadow: 10px 5px 5px black;
+    }
+    
+    #imagen3{
+        border: 1px solid black;
+        border-radius: 25%;
+        width: 200px;
+        height: 200px;
+        box-shadow: 10px 5px 5px black;
+    }
+    
+    #imagen4{
+        border: 1px solid black;
+        border-radius: 25%;
+        width: 200px;
+        height: 200px;
+        box-shadow: 10px 5px 5px black;
+    }
+</style>
+</head>
+<body>
+    <h1>Conoce nuestros servicios.</h1>
+
+    <br>
+    
+    <a class="regresar" href="index.html" ><button id="btnback">Ir a la página principal.</button></a>
+
+    <br><br> <br>
+
+
+    <!--fin del boton que regresa a la pagina anterior.-->
+
+    <ul class="collapsible popout">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">local_hospital</i>Sesiones de Hemodialisis.</div>
+          <div class="collapsible-body"><span><img id="imagen1" src="imagen1.jpg"> <br>Los beneficios de un adecuado tratamiento son indescriptibles, porque para inicia, elimina la sal extra, el agua y los productos de desecho para que no se acumulen en su cuerpo, estos beneficios, los encontrará en nuestras instalaciones.          </span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">vaccines1</i>Colocación de catéteres.</div>
+          <div class="collapsible-body"><span><img id="imagen2" src="imagen2.jpg"> <br>Básico de cualquier clinica, pero sin duda encontraras la calidad que deseas aquí, con nosotros.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">medication</i>Consulta por médico naval (Nefrólogo).</div>
+          <div class="collapsible-body"><span><img id="imagen3" src="imagen3.jpg">La hemodiálisis es un procedimiento riguroso que demanda mucha atención y cuidados, por este motivo siempre estarás bien acompañado por nuestro personal altamente calificado.</span></div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">bloodtype</i>Prevención y tratamiento de la insuficiencia renal.</div>
+            <div class="collapsible-body"><span><img id="imagen4" src="imagen4.jpg">Nuestros conocimientos y equipo siempre a tu disposición, no solo para tu pronta recuperación, sino para prevenir futuros fallos, logrando una gran calidad de vida.</span></div>
+          </li>
+    </ul>     
+
+
+
+
+
+
+
+
+
+
+
+
+       <!-- Archivo de JavaScript de materialize INICIO -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+       <!-- Archivo de JavaScript de materialize FIN -->
+
+       <script>
+        document.addEventListener('DOMContentLoaded', function() {
+       var elems = document.querySelectorAll('.collapsible');
+       var instances = M.Collapsible.init(elems, );
+     });
+        </script>
+
+</body>
+</html>
